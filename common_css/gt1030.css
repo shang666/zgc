@@ -1,0 +1,95 @@
+/*header开始*/
+html{
+	font-size: 100%;
+}
+body{
+	font-size: 1em;
+}
+header{
+	width: 100%;
+	background: #333333;
+	position: fixed;
+	top: 0;
+	z-index: 12345;
+}
+header nav{
+	max-width: 1030px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+header nav p,header nav>img{
+	display: none;
+}
+header nav h1{
+	width: 171px;
+	float: left;
+	padding-top: 11px;
+	padding-left: 30px;
+}
+header nav ul{
+	width: 750px;
+	float: right;
+}
+header nav li{
+	width: 94px;
+	float: left;
+	text-align: center;
+	line-height: 80px;
+}
+header nav li:first-of-type{
+	width: 64px;
+}
+header nav li:nth-of-type(2){
+	background: #5c5c5c;
+}
+header nav li a{
+	font-size: 87.5%;
+	color: #fff;
+	display: block;	
+	transition: 1s;
+}
+header nav li a:hover{
+	background: #5c5c5c;
+}
+.ul_1{
+	display: none !important;
+}
+.header{height: 80px;width: 100%;}
+
+/*footer开始*/
+footer{
+	width: 100%;
+	background: #333;
+}
+footer ul{
+	max-width: 1030px;
+	min-width: 320px;
+	margin: 0 auto;
+	padding-bottom: 54px;
+}
+footer li{
+	width: 245px;
+	float: left;
+	padding-top: 45px;
+}
+footer li:last-of-type{
+	width: 265px;
+}
+footer li strong{
+	display: block;
+	width: 65px;
+	float: left;
+	font-size: 87.5%;
+	color: #fff;
+	line-height: 30px;
+}
+footer li p{
+	width: 180px;
+	float: left;
+	font-size: 87.5%;
+	color: #fff;
+	line-height: 30px;
+}
+footer li:last-of-type p{
+	width: 185px;
+}

@@ -1,0 +1,342 @@
+/*header开始*/
+html{
+	font-size: 100%;
+	
+}
+header{
+	width: 100%;
+	background: #333333;
+	position: fixed;
+	top: 0;
+	z-index: 12345;
+}
+header nav{
+	max-width: 1030px;
+	min-width: 320px;
+	margin: 0 auto;
+	position: relative;
+}
+.header{height: 50px;width: 100%;}
+header nav h1{
+	width: 20%;
+	float: left;
+	padding-top: 11px;
+	padding-left: 2.5%;
+	cursor: pointer;
+}
+header nav p{
+	font-size: 152.5%;
+	color: #fff;
+	height: 60px;
+	line-height: 60px;
+	width: 72%;
+	float: right;
+}
+header nav>img{
+	width: 32px;
+	height: 28px;
+	position: absolute;
+	top: 30%;
+	right: 4%;
+	cursor: pointer;
+}
+.ul_1{
+	width: 87%;
+	margin-top: 10px;
+	background: #434242;
+	padding-left: 13%;
+}
+.ul_1 li{
+	width: 21%;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+.ul_1 li a{
+	font-size: 75%;
+	color: #fff;
+	display: block;
+}
+.ul_1 li:first-of-type a{
+	background: #545252;
+}
+.none{display: none;}
+/*banner*/
+.bx-pager{
+	width: 406px;
+	left: 50%;
+	margin-left: -210px;
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+	position: absolute;
+	bottom: 3%;
+	right: 11%;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #c9c2ba;
+	text-indent: -9999px;
+	display: block;
+	width: 85%;
+	height: 5px;
+	margin: 0 20px;
+	outline: 0;
+}
+/*.container .serve开始*/
+.container{
+	max-width: 1030px;
+	min-width: 320px;
+
+}
+.container h2{
+	font-size: 140%;
+	color: #000200;
+	height: 60px;
+	line-height: 60px;
+	font-weight: normal;
+}
+.container .serve ul{
+	padding-left: 14%;
+}
+.container .serve li{
+	width: 14%;
+	float: left;
+	padding-top: 57px;
+	margin-right: 10%;
+	text-align: center;
+	cursor: pointer;
+}
+.container .serve li:last-of-type{
+	margin-right:0;
+}
+.container .serve li div h4{
+	line-height: 20px;
+	font-weight: normal;
+	color: #000300;
+}
+.container .serve li div h4 span{
+	display: none;	
+}
+.container .serve li p{
+	display: none;
+}
+.container .serve li:first-of-type{
+	background: url(../img/service_1_1.jpg) no-repeat center top;
+}
+.container .serve li:nth-of-type(2){
+	background: url(../img/service_2_1.jpg) no-repeat center top;
+}
+.container .serve li:nth-of-type(3){
+	background: url(../img/service_3_1.jpg) no-repeat center top;
+}
+.container .serve li:last-of-type{
+	background: url(../img/service_4_1.jpg) no-repeat center top;
+}
+.container .serve li:first-of-type:active{
+	background: url(../img/service_1_2.jpg) no-repeat center top;
+}
+.container .serve li:nth-of-type(2):active{
+	background: url(../img/service_2_2.jpg) no-repeat center top;
+}
+.container .serve li:nth-of-type(3):active{
+	background: url(../img/service_3_2.jpg) no-repeat center top;
+}
+.container .serve li:last-of-type:active{
+	background: url(../img/service_4_2.jpg) no-repeat center top;
+	
+}
+/*.container .shezhi开始*/
+.container .shezhi ul{
+	width: 90%;
+	padding-left: 5%;
+}
+.container .shezhi ul li img{
+	display: block;
+	width: 115%;
+}
+.container .shezhi ul li{
+	width: 32%;
+	height: 109px;
+	float: left;
+	padding-bottom: 7%;
+	position: relative;
+}
+.container .shezhi ul li:nth-of-type(3),
+.container .shezhi ul li:nth-of-type(6),
+.container .shezhi ul li:last-of-type{
+	margin-right: 0;
+}
+.container .shezhi ul li p{
+	display: none;
+}
+/*.container .mien开始*/
+h2 a{
+	display: inline-block;
+	float: right;
+	font-size: 50%;
+	font-weight: bold;
+	color: #fc9338;
+}
+.container .mien li{
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	cursor: pointer;
+}
+.container .mien li:nth-of-type(2),
+.container .mien li:nth-of-type(4),
+.container .mien li:last-of-type{
+	margin-right: 0;
+}
+.container .mien li a h3{
+	display: block;
+	font-size: 100%;
+	color: #2d3631;
+	line-height: 28px;
+	padding-top: 10px;
+	font-weight: normal;
+}
+.container .mien li a h3:active{
+	color: #fa9636;
+}
+.container .mien li p{
+	font-size: 65%;
+	color: #878787;
+	line-height: 24px;
+}
+/*.container .works开始*/
+.container .works li{
+	width: 32%;
+	height: 46%;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	margin-right: 2%;
+	margin-bottom: 1%;
+}
+.container .works li:nth-of-type(3),
+.container .works li:nth-of-type(6),
+.container .works li:nth-of-type(9),
+.container .works li:nth-of-type(12),
+.container .works li:nth-of-type(15),
+.container .works li:nth-of-type(18){
+	margin-right: 0;
+}
+.container .works li div{
+	display: none;
+}
+
+/*.container .star开始*/
+.container .star li{
+	width: 32%;
+	height: 48%;
+	margin-bottom: 1%;
+	margin-right: 2%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.container .star li:nth-of-type(3),
+.container .star li:nth-of-type(6),
+.container .star li:nth-of-type(9),
+.container .star li:nth-of-type(12){
+	margin-right: 0;
+}
+.container .star li p{
+	display: none;
+}
+
+/*.container .unit开始*/
+.container .unit li{
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	cursor: pointer;
+}
+.container .unit li:nth-of-type(3),
+.container .unit li:nth-of-type(6),
+.container .unit li:nth-of-type(9),
+.container .unit li:nth-of-type(12),
+.container .unit li:nth-of-type(15),
+.container .unit li:last-of-type{
+	margin-right: 0;
+}
+.container .unit li:nth-of-type(18),
+.container .unit li:last-of-type{
+	margin-right: 0;
+}
+.container .works li:last-of-type,
+.container .star li:last-of-type,
+.container .unit li:last-of-type {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+}
+.container .works li:last-of-type a,
+.container .star li:last-of-type a,
+.container .unit li:last-of-type a{
+	display: block;
+	font-size: 75%;
+	color: #fc9338;
+	line-height: 50px;
+	width: 30%;
+	height: 50px;
+	margin: 0 auto;
+	background: url(../img/img_04.png) no-repeat center top;	
+	cursor: pointer;
+}
+/*footer开始*/
+footer{
+	width: 100%;
+	background: #333;
+	margin-top: 32px;
+}
+footer ul{
+	max-width: 1000px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 54px;
+	padding-left: 12%;
+	padding-top: 45px;
+}
+footer li:nth-of-type(3),footer li:last-of-type{
+	padding-top: 20px;
+}
+footer li{
+	width: 45%;
+	float: left;
+}
+footer li:first-of-type,
+footer li:nth-of-type(3){
+	width: 35%;
+}
+footer li strong{
+	display: block;
+	width: 35%;
+	float: left;
+	font-size: 75%;
+	color: #fff;
+	line-height: 20px;
+	text-align: right;
+}
+footer li p{
+	width: 60%;
+	float: left;
+	font-size: 75%;
+	color: #fff;
+	line-height: 20px;
+	padding-left: 5%;
+}
+footer li:last-of-type{
+	padding-bottom: 0;
+}

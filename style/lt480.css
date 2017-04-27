@@ -1,0 +1,358 @@
+/*header开始*/
+html{
+	font-size: 100%;
+	
+}
+header{
+	height: 55px;
+	width: 100%;
+	background: #333333;
+	position: fixed;
+	top: 0;
+	z-index: 12345;
+}
+header nav{
+	max-width: 1030px;
+	min-width: 320px;
+	margin: 0 auto;
+	position: relative;
+}
+
+header nav h1{
+	width: 25%;
+	float: left;
+	padding-top: 11px;
+	padding-left: 2.5%;
+	cursor: pointer;
+}
+header nav ul{
+	width: 80px;
+	float: right;
+	position: absolute;
+	top: 90%;
+	right: 5%;
+	background: #666;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+header nav p{
+	font-size: 162.5%;
+	color: #fff;
+	height: 70px;
+	line-height: 70px;
+	width: 75%;
+	float: right;
+	display: none;
+}
+
+header nav>img{
+	width: 32px;
+	height: 28px;
+	position: absolute;
+	top: 20%;
+	right: 10%;
+	cursor: pointer;
+}
+.ul_1{
+	width: 94%;
+	background: #434242;
+	padding-left:6%;
+}
+.ul_1 li{
+	width: 23%;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+}
+.ul_1 li a{
+	font-size: 75%;
+	color: #fff;
+	display: block;
+}
+.ul_1 li:first-of-type a{
+	background: #545252;
+}
+.header{height: 55px;  width: 100%;}
+.none{display: none;}
+/*banner*/
+.bx-pager{
+	width: 346px;
+	left: 50%;
+	margin-left: -180px;
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+	position: absolute;
+	bottom: 3%;
+	right: 11%;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	display: none !important;
+	background: #c9c2ba;
+	text-indent: -9999px;
+	display: block;
+	width: 45%;
+	height: 5px;
+	margin: 0 15px;
+	outline: 0;
+}
+/*.container .serve开始*/
+.container{
+	max-width: 1030px;
+	min-width: 320px;
+}
+.container h2{
+	height: 60px;
+	line-height: 60px;	
+}
+.container .serve ul{
+	width: 100%;
+}
+.container .serve li{
+	width: 20%;
+	float: left;
+	padding-top: 14%;	
+	text-align: center;
+	margin-right: 6%;
+}
+.container .serve li:last-of-type{
+	margin-right:0;
+}
+.container .serve li div h4{
+	line-height: 12px;
+	font-weight: normal;
+	color: #000300;
+}
+.container .serve li div h4 span{
+	display: none;	
+}
+.container .serve li p{
+	display: none;
+}
+.container .serve li:first-of-type{
+	background: url(../img/service_1_1.jpg) no-repeat center top;
+}
+.container .serve li:nth-of-type(2){
+	background: url(../img/service_2_1.jpg) no-repeat center top;
+}
+.container .serve li:nth-of-type(3){
+	background: url(../img/service_3_1.jpg) no-repeat center top;
+}
+.container .serve li:last-of-type{
+	background: url(../img/service_4_1.jpg) no-repeat center top;
+}
+.container .serve li:first-of-type:active{
+	background: url(../img/service_1_2.jpg) no-repeat center top;
+}
+.container .serve li:nth-of-type(2):active{
+	background: url(../img/service_2_2.jpg) no-repeat center top;
+}
+.container .serve li:nth-of-type(3):active{
+	background: url(../img/service_3_2.jpg) no-repeat center top;
+}
+.container .serve li:last-of-type:active{
+	background: url(../img/service_4_2.jpg) no-repeat center top;	
+}
+.container .serve li{
+	background-size: 65% !important;
+}
+/*.container .shezhi开始*/
+.container .shezhi ul{
+	width: 97%;
+	/*border: 1px solid #dddddd;*/
+}
+.container .shezhi ul li img{
+	display: block;
+	width: 100%;
+}
+.container .shezhi ul li{
+	width: 49%;
+	height: 109px;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	position: relative;
+}
+.container .shezhi ul li:nth-of-type(2),
+.container .shezhi ul li:nth-of-type(4),
+.container .shezhi ul li:nth-of-type(6),
+.container .shezhi ul li:nth-of-type(8){
+	margin-right: 0;
+}
+.container .shezhi ul li p{
+	display: none;
+}
+/*.container .mien开始*/
+h2{
+	padding-top: 10px;
+	font-weight: normal;
+}
+h2 a{
+	display: inline-block;
+	float: right;
+	font-size: 50%;
+	color: #fc9338;
+	margin-right: 8px;
+	font-weight: bold;
+	
+}
+.container .mien li{
+	width: 48%;
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 1%;
+	cursor: pointer;
+	/*text-align: center;*/
+}
+.container .mien li:nth-of-type(2),
+.container .mien li:nth-of-type(4),
+.container .mien li:last-of-type{
+	margin-right: 0;
+}
+.container .mien li a h3{
+	display: block;
+	font-size: 100%;
+	color: #2d3631;
+	line-height: 38px;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+.container .mien li a h3:active{
+	color: #fa9636;
+}
+.container .mien li p{
+	font-size: 65%;
+	color: #878787;
+	line-height: 24px;
+	display: none;
+}
+/*.container .works开始*/
+.container .works li{
+	width: 31%;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	margin-right: 3%;
+	margin-bottom: 2%;
+}
+.container .works li:nth-of-type(3),
+.container .works li:nth-of-type(6),
+.container .works li:nth-of-type(9),
+.container .works li:nth-of-type(12),
+.container .works li:nth-of-type(15),
+.container .works li:nth-of-type(18){
+	margin-right: 0;
+}
+
+.container .works li div{
+	display: none;
+}
+
+/*.container .star开始*/
+
+.container .star li{
+	width: 31%;
+	margin-bottom: 1.5%;
+	margin-right: 3%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.container .star li:nth-of-type(3),
+.container .star li:nth-of-type(6),
+.container .star li:nth-of-type(9),
+.container .star li:nth-of-type(12){
+	margin-right: 0;
+}
+.container .star li p{
+	display: none;
+}
+
+/*.container .unit开始*/
+.container .unit li{
+	width: 31%;
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 1.5%;
+	cursor: pointer;
+}
+.container .unit li:nth-of-type(3),
+.container .unit li:nth-of-type(6),
+.container .unit li:nth-of-type(9),
+.container .unit li:nth-of-type(12),
+.container .unit li:nth-of-type(15),
+.container .unit li:nth-of-type(18){
+	margin-right: 0;
+}
+.container .works li:last-of-type,
+.container .star li:last-of-type,
+.container .unit li:last-of-type {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+}
+.container .works li:last-of-type a,
+.container .star li:last-of-type a,
+.container .unit li:last-of-type a{
+	display: block;
+	font-size: 75%;
+	color: #fc9338;
+	line-height: 50px;
+	width: 30%;
+	height: 50px;
+	margin: 0 auto;
+	background: url(../img/img_04.png) no-repeat center top;	
+	cursor: pointer;
+}
+/*footer开始*/
+footer{
+	width: 100%;
+	background: #333;
+	margin-top: 32px;
+}
+footer ul{
+	max-width: 1000px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 54px;
+}
+
+footer li{
+	width: 75%;
+	padding-top: 15px;
+	padding-left: 22%;
+}
+
+footer li:first-of-type{
+	padding-top: 50px;
+}
+footer li strong{
+	display: block;
+	width: 20%;
+	float: left;
+	font-size: 75%;
+	color: #fff;
+	line-height: 20px;
+	text-align: right;
+	padding-right: 5%;
+}
+footer li p{
+	width: 52%;
+	float: left;
+	font-size: 75%;
+	color: #fff;
+	line-height: 20px;
+}
+footer li:last-of-type{
+	padding-bottom: 0;
+}
+footer li:last-of-type p:last-of-type{
+	width: 40%;
+}

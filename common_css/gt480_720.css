@@ -1,0 +1,107 @@
+/*header开始*/
+html{
+	font-size: 100%;
+	
+}
+header{
+	width: 100%;
+	background: #333333;
+	position: fixed;
+	top: 0;
+	z-index: 12345;
+}
+header nav{
+	max-width: 1030px;
+	min-width: 320px;
+	margin: 0 auto;
+	position: relative;
+}
+.header{height: 60px;width: 100%;}
+header nav h1{
+	width: 20%;
+	float: left;
+	padding-top: 11px;
+	padding-left: 2.5%;
+	cursor: pointer;
+}
+header nav p{
+	font-size: 142.5%;
+	color: #fff;
+	height: 60px;
+	line-height: 60px;
+	width: 72%;
+	float: right;
+}
+header nav>img{
+	width: 32px;
+	height: 28px;
+	position: absolute;
+	top: 30%;
+	right: 3%;
+	cursor: pointer;
+}
+.ul_1{
+	width: 87%;
+	background: #434242;
+	padding-left: 13%;
+}
+.ul_1 li{
+	width: 21%;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+}
+.ul_1 li a{
+	font-size: 75%;
+	color: #fff;
+	display: block;
+}
+
+.none{display: none;}
+
+
+
+/*footer开始*/
+footer{
+	width: 100%;
+	background: #333;
+}
+footer ul{
+	max-width: 1000px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 54px;
+	padding-left: 12%;
+	padding-top: 45px;
+}
+footer li:nth-of-type(3),footer li:last-of-type{
+	padding-top: 20px;
+}
+footer li{
+	width: 45%;
+	float: left;
+}
+footer li:first-of-type,
+footer li:nth-of-type(3){
+	width: 35%;
+}
+footer li strong{
+	display: block;
+	width: 35%;
+	float: left;
+	font-size: 75%;
+	color: #fff;
+	line-height: 20px;
+	text-align: right;
+}
+footer li p{
+	width: 60%;
+	float: left;
+	font-size: 75%;
+	color: #fff;
+	line-height: 20px;
+	padding-left: 5%;
+}
+footer li:last-of-type{
+	padding-bottom: 0;
+}

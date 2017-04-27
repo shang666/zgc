@@ -1,0 +1,243 @@
+html{
+	font-size: 100%;
+}
+body{
+	font-size: 1em;
+}
+/*container开始 大于1030*/
+.container{
+	max-width: 1030px;
+	min-width: 320px;
+	margin: 40px auto 0 auto;
+}
+.container hgroup{
+	width: 251px;
+	padding-right: 15px;
+	margin-right: 50px;
+	border-right: 1px solid #bababa;
+	float: left;
+}
+.container hgroup h2{
+	width: 161px;
+	font-size: 1.375em;
+	line-height: 77px;
+	padding-left: 90px;
+	transition: 0.5s;
+}
+.container hgroup h2 a{
+	font-size: 1.375em;
+	color: #231e22;
+	font-weight: normal;
+	display: block;
+}
+.container hgroup h2:first-of-type{
+	border-bottom: 3px solid #fc9433;
+	background: url(../img/xygk_03.jpg) no-repeat 4% center;
+}
+.container hgroup h2:last-of-type{
+	background: url(../img/xygk_06.jpg) no-repeat 4% center;
+}
+.container hgroup h2:last-of-type:hover{
+	border-bottom: 3px solid #fc9433;
+	background: url(../img/xygk_07.jpg) no-repeat 4% center;
+}
+.container article{
+	width: 670px;
+	float: left;
+}
+.container article p{
+	font-size: 1em;
+	color: #000005;
+	line-height: 28px;
+	text-indent: 32px;
+}
+.container article img{
+	display: block;
+	padding-top: 17px;
+	padding-bottom: 32px;
+}
+.container article p:last-of-type{
+	padding-top: 29px;
+	padding-bottom: 141px;
+}
+/*720px-1030px*/
+@media screen and (min-width: 720px) and (max-width:1032px) {
+.container hgroup{
+	width: 24.368%;
+	padding-right: 15px;
+	margin-right: 4.854%;
+	border-right: 1px solid #bababa;
+	float: left;
+}
+.container hgroup h2{
+	width: 64%;
+	font-size: 1.275em;
+	line-height: 70px;
+	padding-left: 35.866%;
+	transition: 0.5s;
+}
+.container hgroup h2 a{
+	font-size: 1.275em;
+	color: #231e22;
+	font-weight: normal;
+}
+.container hgroup h2:first-of-type{
+	border-bottom: 3px solid #fc9433;
+	background: url(../img/xygk_03.jpg) no-repeat 4% center;
+}
+.container hgroup h2:last-of-type{
+	background: url(../img/xygk_06.jpg) no-repeat 4% center;
+}
+.container hgroup h2:last-of-type:hover{
+	border-bottom: 3px solid #fc9433;
+	background: url(../img/xygk_07.jpg) no-repeat 4% center;
+}
+.container article{
+	width: 67%;
+	float: left;
+}
+.container article p{
+	font-size: 1em;
+	color: #000005;
+	line-height: 28px;
+	text-indent: 32px;
+}
+.container article img{
+	display: block;
+	padding-top: 17px;
+	padding-bottom: 32px;
+}
+.container article p:last-of-type{
+	padding-top: 29px;
+	padding-bottom: 141px;
+}
+
+}
+@media screen and (max-width:719px) {
+.container{
+	margin-top: 20px;
+}
+.container hgroup{
+	width: 80%;
+	padding-right: 0;
+	margin-right: 0;
+	border-right: 0;
+	padding-left: 17%;
+	margin-bottom: 20px;
+}
+.container hgroup h2{
+	width: 25%;
+	font-size: 1.175em;
+	line-height: 70px;
+	padding-left: 8%;
+	float: left;
+		
+}
+.container hgroup h2 a{
+	display: block;
+	font-size: 1.175em;
+	color: #231e22;
+	font-weight: normal;
+	padding-left: 20%;
+}
+.container hgroup h2:first-of-type{
+	border-bottom: 3px solid #fc9433;
+	background: url(../img/xygk_03.jpg) no-repeat 4% center;
+	margin-right: 20%;
+}
+.container hgroup h2:last-of-type{
+	background: url(../img/xygk_06.jpg) no-repeat 4% center;
+}
+.container hgroup h2:last-of-type:active{
+	background: url(../img/xygk_07.jpg) no-repeat 4% center;
+}
+.container hgroup h2:last-of-type:hover{
+	border-bottom: 0;
+	background: url(../img/xygk_06.jpg) no-repeat 4% center;
+}
+.container article{
+	width: 100%;
+}
+.container article p{
+	font-size: 1em;
+	color: #000005;
+	line-height: 25px;
+	text-indent: 32px;
+}
+.container article img{
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.container article p:last-of-type{
+	padding-top: 15px;
+	padding-bottom: 71px;
+}
+.ul_1 li:nth-of-type(2) a{
+	background: #545252;
+}
+}
+@media screen and (max-width:600px) and (min-width:480px){
+	.container hgroup{
+	width: 90%;
+	padding-right: 0;
+	margin-right: 0;
+	border-right: 0;
+	padding-left: 6%;
+	margin-bottom: 20px;
+}
+.container hgroup h2{
+	width: 30%;
+	font-size: 1.175em;
+	line-height: 70px;
+	padding-left: 8%;
+	float: left;	
+}
+.container hgroup h2 a{
+	display: block;
+	font-size: 1.175em;
+	color: #231e22;
+	font-weight: normal;
+	padding-left: 20%;
+	text-align: center;
+}
+}
+@media screen and (max-width:480px){
+.container hgroup{
+	width: 90%;
+	padding-left: 5%;
+
+}
+.container hgroup h2{
+	width: 39%;
+	font-size: 1.1em;
+	line-height: 60px;
+	float: left;
+	margin-right: 0 !important;	
+}
+.container hgroup h2 a{
+	display: block;
+	font-size: 1.175em;
+	color: #231e22;
+	font-weight: normal;
+	text-align: center;
+}
+.container hgroup h2:first-of-type{
+	border-bottom: 3px solid #fc9433;
+	background: url(../img/xygk_03.jpg) no-repeat 4% center;
+	margin-right: 5% !important;
+}
+.container hgroup h2:last-of-type{
+	background: url(../img/xygk_06.jpg) no-repeat 4% center;
+}
+.container hgroup h2:last-of-type:active{
+	background: url(../img/xygk_07.jpg) no-repeat 4% center;
+}
+.container hgroup h2:last-of-type:hover{
+	border-bottom: 0;
+	background: url(../img/xygk_06.jpg) no-repeat 4% center;
+}
+}
+
+
+
